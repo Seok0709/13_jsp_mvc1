@@ -32,7 +32,7 @@
 		</table>
 		<p>
 			<input type="submit" value='글쓰기'>
-			<input type="button" value="전체게시글보기">
+			<input type="button" value="전체게시글보기" onclick="location.href='04_bList.jsp'">
 		</p>
 		
 	</form>

@@ -13,4 +13,11 @@ CREATE TABLE BOARD(
    	CONTENT 		VARCHAR(200)
 );
 
+update
+		board
+set
+		read_count = read_count +1
+where
+		num=?;
+		
 SELECT * FROM BOARD;

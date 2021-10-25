@@ -22,7 +22,7 @@
 
 	<script>
 		alert("등록되었습니다.");
-		history.go(-1);
+		location.href="04_bList.jsp"
 	</script>
 
 </body>
